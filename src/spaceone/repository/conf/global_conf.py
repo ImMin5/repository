@@ -55,13 +55,6 @@ REGISTRY_INFO = {
     "GITHUB": {"url": "ghcr.io"},
 }
 
-# Use managed repository (Read Only), if you can not use plugin marketplace
-ENABLE_MANAGED_REPOSITORY = False
-DEFAULT_REGISTRY = "DOCKER_HUB"  # DOCKER_HUB | AWS_PRIVATE_ECR | HARBOR
-
-ROOT_TOKEN = ""
-ROOT_TOKEN_INFO = {}
-
 MANAGED_REGISTRY_TYPE = "DOCKER_HUB"
 MANAGED_REGISTRY_CONFIG = {}
 MANAGED_PLUGIN_IMAGE_PREFIX = "cloudforet"
